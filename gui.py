@@ -19,8 +19,8 @@ gui.geometry("300x200")
 #     color = askcolor()
 #     print(color)
 
-# b = Button(gui, text="Click Here", command=inp)
-# b.place(x=50, y=50)
+b = Button(gui, text="Click Here", command=inp)
+b.place(x=50, y=50)
 
 frame = Frame(gui)
 frame.pack()
